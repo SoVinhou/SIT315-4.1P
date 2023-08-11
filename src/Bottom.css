@@ -1,0 +1,130 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+  
+.row-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+  
+.Banner-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    width: 650px;
+}
+  
+.Banner-row h3 {
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.Banner-row h2 {
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.Banner-row h1 {
+    font-size: 38px;
+    margin: 0;
+    margin-left: -90px;
+    margin-bottom: 5px;
+}
+  
+.Banner-row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.Banner-row li {
+    margin: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Banner-row li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Banner-row li:hover {
+    transform: scale(1.1);
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.2s ease-in-out;
+}
+
+.socialMedia :hover {
+    transform: scale(1.1);
+}
+  
+.socialMedia a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.socialMedia img {
+    width: 62px;
+    height: 60px;
+    margin: 5px;
+}
+
+.Bottom-Banner-row h4 {
+    font-size: 38px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.Bottom-Banner-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+}
+  
+.Bottom-Banner-row ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+  
+.Bottom-Banner-row li {
+    margin: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.2s ease-in-out;
+}
+
+.Bottom-Banner-row li a {
+    text-decoration: none;
+    color: white;
+}
+
+.Bottom-Banner-row li:hover {
+    transform: scale(1.1);
+}
+
+

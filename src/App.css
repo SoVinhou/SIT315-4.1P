@@ -1,0 +1,90 @@
+*  {
+    box-sizing: border-box;
+ }
+
+ body{
+    margin: 0;
+ }
+ .nav{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 0 1rem;
+    box-shadow: 2px 2px 30px #555;
+ }
+
+ .nav ul {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 1.3rem;
+    margin-right: 20px;
+    font-weight: bold;
+ }
+ .nav a {
+    color: inherit;
+    text-decoration: none;
+ }
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 30px;
+    position: relative;
+    
+}
+ .nav ul li a{
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+}
+ .nav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #000000 ;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 1s;
+}
+ .nav ul li:hover::after{
+    width: 100%;
+}
+ .Site-title{
+    margin-left: 20px;
+ }
+
+ .coverBanner{
+    width: 100%;
+    height: 100vh;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background-image: url(./images/cover.jpg);
+    background-size: auto;
+    background-position: center;
+ }
+
+ .button {
+   background-color: #000000f8;
+   color: white;
+   font-size: 40px;
+   font-weight: bolder;
+   display: block;
+   margin: 0 auto;
+   padding: 13px 100px;
+   margin-bottom: 80px;
+   border-radius: 30px;
+   cursor: pointer;
+   transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #1d1d1dc9;
+}
+
+
