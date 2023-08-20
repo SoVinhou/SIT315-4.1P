@@ -1,0 +1,55 @@
+.email-box {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 30px #555;
+  }
+  
+  .email-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 40px;
+    margin-top: 15px;
+    margin-right: 10px;
+  }
+  
+  .email-box .form {
+    width: 100%;
+    max-width: 400px;
+    margin-left: 30px;
+  }
+  
+  .email-box input[type="email"] {
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 70px;
+  }
+  
+.buttonSub {
+    background-color: #000000f8;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 247px;
+    margin-top: -10px;
+    padding: 13px 100px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+ }
+ 
+ .buttonSub:hover {
+   background-color: #1d1d1dc9;
+ }
+
+ 
+ .form-control{
+    font-size: 25px;
+ }
